@@ -1,0 +1,155 @@
+/* Common styls*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-size: 50px;
+}
+h2{
+
+}
+p{
+    margin: 20px 0px;
+}
+img{
+    width: 100%;
+}
+.name-highlight{
+    color: salmon;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    width: 700;
+}
+header{
+    width: 100%;
+    /* max-width: 1180px; */
+    padding:  30px 15%;
+}
+
+.half-width{
+    padding: 50px;
+    width: 50%;
+    max-width: 550px;
+    
+    
+}
+.card{
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    text-align: left;
+    -webkit-box-shadow: inset 0px 1px 31px 5px rgba(0,0,0,0.22), 0px 1px 31px 5px rgba(0,0,0,0.22); 
+box-shadow: inset 0px 1px 31px 5px rgba(0,0,0,0.22), 0px 1px 31px 5px rgba(0,0,0,0.22);
+
+    
+
+}
+.card:hover{
+    transition: .3s ease-in-out;
+    
+    transform: scale(1.2);
+}
+.card h4{
+    padding: 10px 0 0 10px;
+}
+
+/* nav start*/
+#p-nav{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+#p-nav ul {
+    margin-right: 50px;
+}
+#p-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+#p-nav ul li a:hover{
+    border-bottom: 2px solid black;
+} 
+/* nav end*/
+.container{
+    padding: 0 8%;
+    display: flex;
+    justify-content: center;
+}
+#about{
+    
+}
+#portfolio{
+    text-align: center;
+    margin: 0 auto;
+    background-color:rgba(151, 150, 150, 0.103)
+}
+#portfolio h2{
+    transform: translateY(100px);
+    text-transform: uppercase;
+}
+#portfolio .container{
+    padding: 100px;
+    margin-top: 50px;
+}
+#contact{
+    padding: 100px;
+}
+#contact div{
+    padding:  100px 30px;
+}
+#contact div div{
+    background: url(./shapes/work.png);
+    background-size: cover;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    border-radius: 20px;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin: 5px 5px !important;
+}
+footer h3{
+    margin: 10px 5px;
+    font: 30px;
+    letter-spacing: 3px;
+}
+footer div{
+}
+#icons{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+}
+#icons img{
+    width: 45px;
+    padding: 10px;
+}
